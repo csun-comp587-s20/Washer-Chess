@@ -2,6 +2,7 @@ package washer.game;
 
 import washer.Utilities;
 import washer.pieces.King;
+import washer.pieces.Piece;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -16,6 +17,7 @@ public class PieceList {
 	public PieceList () {
 		entries = new HashMap<Integer, BoardEntry> ();
 	}
+
 
 	public PieceList (Map<Integer, BoardEntry> entries) {
 		this.entries = entries;
