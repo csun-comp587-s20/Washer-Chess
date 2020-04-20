@@ -18,11 +18,13 @@ public class Ply implements Comparable<Ply> {
 	private boolean kwc, qwc; //king/queen white castle rights
 	//private boolean check;
 
-	public Ply (int startLocation, int endLocation, int moveType, Piece pieceMoved, Piece captured, int halfmoveClock/*, boolean check*/, boolean kwc, boolean kbc, boolean qwc, boolean qbc, Side side) {
+	public Ply (int startLocation, int endLocation, int moveType, Piece pieceMoved, Piece captured, int halfmoveClock/*, boolean check*/,
+				boolean kwc, boolean kbc, boolean qwc, boolean qbc, Side side) {
 		this (startLocation, endLocation, moveType, pieceMoved, captured, halfmoveClock, 0, /*check,*/ kwc, kbc, qwc, qbc, side);
 	}
 
-	public Ply (int startLocation, int endLocation, int moveType, Piece pieceMoved, Piece captured, int halfmoveClock, int evaluation/*, boolean check*/, boolean kwc, boolean kbc, boolean qwc, boolean qbc, Side side) {
+	public Ply (int startLocation, int endLocation, int moveType, Piece pieceMoved, Piece captured, int halfmoveClock, int evaluation
+			/*, boolean check*/, boolean kwc, boolean kbc, boolean qwc, boolean qbc, Side side) {
 		this.startLocation = startLocation;
 		this.endLocation = endLocation;
 		this.moveType = moveType;
@@ -43,7 +45,8 @@ public class Ply implements Comparable<Ply> {
 	}
 
 	public Ply (Ply ply) {
-		this (ply.getStart (), ply.getEnd (), ply.getType (), ply.getMoved (), ply.getCaptured (), ply.getHalfmoveClock (), ply.getEvaluation (), ply.getKWC (), ply.getKBC (), ply.getQWC (), ply.getQBC (), ply.getSide ());
+		this (ply.getStart (), ply.getEnd (), ply.getType (), ply.getMoved (), ply.getCaptured (), ply.getHalfmoveClock (),
+				ply.getEvaluation (), ply.getKWC (), ply.getKBC (), ply.getQWC (), ply.getQBC (), ply.getSide ());
 	}
 
 	public static Ply compare (Ply p1, Ply p2) {

@@ -53,10 +53,18 @@ public class Bishop extends Piece {
 		return moves;
 	}
 
+	public int reevaluateInt(int location){
+		int value = Utilities.BISHOP_VALUE + (this.getColor () == Side.WHITE ? WHITE_MOBILITY_BONUS : BLACK_MOBILITY_BONUS)[Board.to8x8 (location)];
+		//to adjust bonuses for white and black accordingly
+		return value;
+	}
+
 	public void reevaluate (int location) {
-		int value = Utilities.BISHOP_VALUE + (this.getColor () == Side.WHITE ? WHITE_MOBILITY_BONUS : BLACK_MOBILITY_BONUS)[Board.to8x8 (location)];//to adjust bonuses for white and black accordingly
+		int value = reevaluateInt(location);
 		setEvaluation (value);
 	}
+
+
 
 	private List<Ply> findDirectionalMoves (Board board, int movement, int location, boolean addNumbers) {
 		List<Ply> directionalMoves = new ArrayList<Ply> ();
@@ -74,7 +82,8 @@ public class Bishop extends Piece {
 
 			if (Board.isValidLocation (newLocation) && (!board.hasPiece (newLocation) || !board.sameColor (location, newLocation))) {
 
-				ply = new Ply (location, newLocation, Utilities.NORMAL_MOVE, board.getPieceAt (location), board.getPieceAt (newLocation), board.hasPiece (newLocation) ? 0 : board.getHalfmoveClock () + 1, board.getKWC (), board.getKBC (), board.getQWC (), board.getQBC (), board.getSide ());
+				ply = new Ply (location, newLocation, Utilities.NORMAL_MOVE, board.getPieceAt (location), board.getPieceAt (newLocation),
+						board.hasPiece (newLocation) ? 0 : board.getHalfmoveClock () + 1, board.getKWC (), board.getKBC (), board.getQWC (), board.getQBC (), board.getSide ());
 
 				directionalMoves.add (ply);
 

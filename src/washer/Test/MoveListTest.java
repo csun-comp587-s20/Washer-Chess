@@ -31,8 +31,9 @@ public class MoveListTest {
         moveList.addMove(play2);
         Assert.assertEquals(2, moveList.getNumMoves());
     }
+
     @Test (expected  = NullPointerException.class)
-    public void TestGetMoveAt(){
+    public void TestGetMoveAtNull(){
         MoveList moveList = new MoveList();
         Assert.assertEquals(0, moveList.getMoveAt(5));
     }
@@ -71,7 +72,7 @@ public class MoveListTest {
         moveList.addMove(play2);
         Assert.assertEquals(p, moveList.getAllMoves());
     }
-    @Test
+    @Test (expected  = NullPointerException.class)
     public void RemoveMoves2(){
         MoveList moveList = new MoveList();
         moveList.addMove(play1);
