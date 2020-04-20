@@ -117,7 +117,8 @@ public class Board {
 		outcome = determineOutcome ();
 	}
 
-	private Outcome determineOutcome () {//NEED TO ADD THREEFOLD REPETITION DETECTION, INSUFFICIENT MATERIAL, 50 MOVE RULE, PLAYERS AGREEING TO DRAW
+	private Outcome determineOutcome () {
+		//NEED TO ADD THREEFOLD REPETITION DETECTION, INSUFFICIENT MATERIAL, 50 MOVE RULE, PLAYERS AGREEING TO DRAW
 
 		for (Side i : Side.values ()) {
 

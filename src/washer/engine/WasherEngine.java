@@ -13,6 +13,7 @@ public class WasherEngine extends AbstractEngine {
 	private static final int CASTLE_BONUS = 25;
 
 	public WasherEngine (Board board) {
+
 		this (DEFAULT_DEPTH, DEFAULT_MOVE_TIME, DEFAULT_MAX_NODES, board);
 	}
 
