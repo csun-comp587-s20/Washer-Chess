@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37179850-5a1d-4d5c-b744-b6026bb7a4e3" name="Default" comment="" />
+    <list default="true" id="37179850-5a1d-4d5c-b744-b6026bb7a4e3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/washer/Test/KingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/washer/Test/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +29,14 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="40" />
+          <entry key="java" value="61" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="61" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -40,13 +44,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="iml" value="3" />
-          <entry key="java" value="2504" />
+          <entry key="java" value="3795" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="2504" />
+          <entry key="JAVA" value="3795" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -55,29 +65,29 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/washer/game/MovePanel.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/washer/game/Ply.java">
+            <entry file="file://$PROJECT_DIR$/src/washer/pieces/King.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2397">
-                  <caret line="170" selection-start-line="170" selection-end-line="170" />
+                <state relative-caret-position="-323">
+                  <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/washer/game/PlyTable.java">
+            <entry file="file://$PROJECT_DIR$/src/washer/pieces/Knight.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-449">
-                  <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+                <state relative-caret-position="68">
+                  <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/washer/game/Board.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -86,11 +96,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Tests/washer/Test/BoardTest.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Tests/washer/Test/BishopTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="179">
-                  <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+                <state relative-caret-position="537">
+                  <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -99,13 +109,22 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Tests/washer/Test/BishopTest.java">
+            <entry file="file://$PROJECT_DIR$/Tests/washer/Test/KingTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-228">
-                  <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+                <state relative-caret-position="469">
+                  <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Tests/washer/Test/KnightTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -144,6 +163,9 @@
         <option value="$PROJECT_DIR$/src/washer/game/Ply.java" />
         <option value="$PROJECT_DIR$/Tests/washer/Test/PlyTest.java" />
         <option value="$PROJECT_DIR$/Tests/washer/Test/PlyTableTest.java" />
+        <option value="$PROJECT_DIR$/Tests/washer/Test/GameStateTest.java" />
+        <option value="$PROJECT_DIR$/Tests/washer/Test/KingTest.java" />
+        <option value="$PROJECT_DIR$/Tests/washer/Test/KnightTest.java" />
       </list>
     </option>
   </component>
@@ -195,8 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,6 +244,13 @@
               <item name="Washer-chess" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="washer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Washer-chess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Washer-chess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="washer" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Washer-chess" type="b2602c69:ProjectViewProjectNode" />
@@ -258,7 +285,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -272,7 +301,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587440909404" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588645888496" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -292,13 +321,13 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="washer.Test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/washer/ui" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="washer.Test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/resources" />
@@ -319,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlyTableTest.test_remove">
+  <component name="RunManager" selected="JUnit.BishopTest.TestReevaluate">
     <configuration name="Test" type="AndroidJUnit" factoryName="Android JUnit">
       <module name="washer-chess" />
       <option name="PACKAGE_NAME" value="washer.Test" />
@@ -356,7 +385,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlyTableTest.test_getTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BishopTest.TestReevaluate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="washer-chess" />
       <extension name="coverage">
         <pattern>
@@ -365,15 +394,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="washer.Test" />
-      <option name="MAIN_CLASS_NAME" value="washer.Test.PlyTableTest" />
-      <option name="METHOD_NAME" value="test_getTable" />
+      <option name="MAIN_CLASS_NAME" value="washer.Test.BishopTest" />
+      <option name="METHOD_NAME" value="TestReevaluate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlyTableTest.test_isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KingTest.checkBooleanReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="washer-chess" />
       <extension name="coverage">
         <pattern>
@@ -382,15 +411,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="washer.Test" />
-      <option name="MAIN_CLASS_NAME" value="washer.Test.PlyTableTest" />
-      <option name="METHOD_NAME" value="test_isEmpty" />
+      <option name="MAIN_CLASS_NAME" value="washer.Test.KingTest" />
+      <option name="METHOD_NAME" value="checkBooleanReturn" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlyTableTest.test_remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KingTest.checkBooleanReturnIsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="washer-chess" />
       <extension name="coverage">
         <pattern>
@@ -399,15 +428,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="washer.Test" />
-      <option name="MAIN_CLASS_NAME" value="washer.Test.PlyTableTest" />
-      <option name="METHOD_NAME" value="test_remove" />
+      <option name="MAIN_CLASS_NAME" value="washer.Test.KingTest" />
+      <option name="METHOD_NAME" value="checkBooleanReturnIsFalse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlyTableTest.test_size_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KingTest.checkBooleanReturnIsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="washer-chess" />
       <extension name="coverage">
         <pattern>
@@ -416,15 +445,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="washer.Test" />
-      <option name="MAIN_CLASS_NAME" value="washer.Test.PlyTableTest" />
-      <option name="METHOD_NAME" value="test_size_1" />
+      <option name="MAIN_CLASS_NAME" value="washer.Test.KingTest" />
+      <option name="METHOD_NAME" value="checkBooleanReturnIsTrue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlyTableTest.test_size_large" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KingTest.test_checkCastleSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="washer-chess" />
       <extension name="coverage">
         <pattern>
@@ -433,26 +462,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="washer.Test" />
-      <option name="MAIN_CLASS_NAME" value="washer.Test.PlyTableTest" />
-      <option name="METHOD_NAME" value="test_size_large" />
+      <option name="MAIN_CLASS_NAME" value="washer.Test.KingTest" />
+      <option name="METHOD_NAME" value="test_checkCastleSquare" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="washer-chess" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="washer.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="washer.Test" />
-      <option name="MAIN_CLASS_NAME" value="washer.Test" />
-      <option name="METHOD_NAME" value="" />
-      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -484,20 +496,19 @@
     <list>
       <item itemvalue="Android JUnit.Test" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.Test" />
-      <item itemvalue="JUnit.PlyTableTest.test_size_large" />
-      <item itemvalue="JUnit.PlyTableTest.test_size_1" />
-      <item itemvalue="JUnit.PlyTableTest.test_isEmpty" />
-      <item itemvalue="JUnit.PlyTableTest.test_getTable" />
-      <item itemvalue="JUnit.PlyTableTest.test_remove" />
+      <item itemvalue="JUnit.KingTest.checkBooleanReturn" />
+      <item itemvalue="JUnit.KingTest.checkBooleanReturnIsTrue" />
+      <item itemvalue="JUnit.KingTest.checkBooleanReturnIsFalse" />
+      <item itemvalue="JUnit.KingTest.test_checkCastleSquare" />
+      <item itemvalue="JUnit.BishopTest.TestReevaluate" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlyTableTest.test_remove" />
-        <item itemvalue="JUnit.PlyTableTest.test_getTable" />
-        <item itemvalue="JUnit.PlyTableTest.test_isEmpty" />
-        <item itemvalue="JUnit.PlyTableTest.test_size_1" />
-        <item itemvalue="JUnit.PlyTableTest.test_size_large" />
+        <item itemvalue="JUnit.BishopTest.TestReevaluate" />
+        <item itemvalue="JUnit.KingTest.test_checkCastleSquare" />
+        <item itemvalue="JUnit.KingTest.checkBooleanReturnIsTrue" />
+        <item itemvalue="JUnit.KingTest.checkBooleanReturnIsFalse" />
+        <item itemvalue="JUnit.KingTest.checkBooleanReturn" />
       </list>
     </recent_temporary>
   </component>
@@ -514,42 +525,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlyTableTest_test_size_1 - 2020.04.20 at 20h 12m 47s.xml">
-      <configuration name="PlyTableTest.test_size_1" configurationId="JUnit" />
+    <history-entry file="KingTest_checkBooleanReturnIsTrue - 2020.05.04 at 19h 13m 17s.xml">
+      <configuration name="KingTest.checkBooleanReturnIsTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlyTableTest_test_isEmpty - 2020.04.20 at 20h 14m 04s.xml">
-      <configuration name="PlyTableTest.test_isEmpty" configurationId="JUnit" />
+    <history-entry file="KingTest_checkBooleanReturnIsTrue - 2020.05.04 at 19h 13m 19s.xml">
+      <configuration name="KingTest.checkBooleanReturnIsTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlyTableTest_test_isEmpty - 2020.04.20 at 20h 16m 35s.xml">
-      <configuration name="PlyTableTest.test_isEmpty" configurationId="JUnit" />
+    <history-entry file="KingTest_checkBooleanReturnIsTrue - 2020.05.04 at 19h 13m 23s.xml">
+      <configuration name="KingTest.checkBooleanReturnIsTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlyTableTest_test_getTable - 2020.04.20 at 20h 18m 08s.xml">
-      <configuration name="PlyTableTest.test_getTable" configurationId="JUnit" />
+    <history-entry file="KingTest_checkBooleanReturnIsTrue - 2020.05.04 at 19h 15m 23s.xml">
+      <configuration name="KingTest.checkBooleanReturnIsTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlyTableTest_test_getTable - 2020.04.20 at 20h 19m 27s.xml">
-      <configuration name="PlyTableTest.test_getTable" configurationId="JUnit" />
+    <history-entry file="KingTest_checkBooleanReturnIsTrue - 2020.05.04 at 19h 15m 26s.xml">
+      <configuration name="KingTest.checkBooleanReturnIsTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlyTableTest_test_remove - 2020.04.20 at 20h 21m 59s.xml">
-      <configuration name="PlyTableTest.test_remove" configurationId="JUnit" />
+    <history-entry file="KingTest_checkBooleanReturnIsTrue - 2020.05.04 at 19h 15m 59s.xml">
+      <configuration name="KingTest.checkBooleanReturnIsTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlyTableTest_test_remove - 2020.04.20 at 20h 28m 02s.xml">
-      <configuration name="PlyTableTest.test_remove" configurationId="JUnit" />
+    <history-entry file="KingTest_test_checkCastleSquare - 2020.05.04 at 19h 29m 06s.xml">
+      <configuration name="KingTest.test_checkCastleSquare" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlyTableTest_test_remove - 2020.04.20 at 20h 30m 00s.xml">
-      <configuration name="PlyTableTest.test_remove" configurationId="JUnit" />
+    <history-entry file="KingTest_test_checkCastleSquare - 2020.05.04 at 19h 29m 11s.xml">
+      <configuration name="KingTest.test_checkCastleSquare" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlyTableTest_test_remove - 2020.04.20 at 20h 31m 09s.xml">
-      <configuration name="PlyTableTest.test_remove" configurationId="JUnit" />
+    <history-entry file="KingTest_test_checkCastleSquare - 2020.05.04 at 19h 29m 37s.xml">
+      <configuration name="KingTest.test_checkCastleSquare" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlyTableTest_test_remove - 2020.04.20 at 20h 32m 03s.xml">
-      <configuration name="PlyTableTest.test_remove" configurationId="JUnit" />
+    <history-entry file="BishopTest_TestReevaluate - 2020.05.04 at 19h 31m 32s.xml">
+      <configuration name="BishopTest.TestReevaluate" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25427872" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25733498" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -569,7 +580,6 @@
       <window_info anchor="bottom" id="Application Servers" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3281075" />
       <window_info anchor="bottom" id="Statistic" order="12" weight="0.32922733" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3294621" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -579,38 +589,8 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3294621" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25427872" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.43829787" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2844345" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922733" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3281075" />
-      <window_info anchor="bottom" id="Application Servers" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281075" />
-      <window_info anchor="bottom" id="Statistic" order="12" weight="0.32922733" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -633,6 +613,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Adding tests&quot;" />
@@ -721,16 +704,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/washer/Test/BishopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="68" column="9" selection-end-line="73" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/Test/BishopTest.java" />
     <entry file="file://$PROJECT_DIR$/src/washer/Washer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -758,23 +732,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/washer/Test/NodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="144" column="1" selection-end-line="144" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/washer/game/BoardEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/Test/NodeTest.java" />
     <entry file="file://$PROJECT_DIR$/src/washer/ui/EnginePanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -792,37 +750,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/washer/game/PieceList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/washer/Test/MovePanelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/washer/game/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2125">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/washer/game/MovePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/washer/Test/MovePanelTest.java" />
     <entry file="file://$PROJECT_DIR$/Tests/washer/Test/BoardEntryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -837,20 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/washer/pieces/Bishop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/washer/pieces/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -871,24 +785,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/washer/game/PlyTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="338" selection-start-line="338" selection-end-line="338" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/washer/game/Ply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
         </state>
       </provider>
     </entry>
@@ -919,23 +819,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/washer/Test/BishopTest.java">
+    <entry file="file://$PROJECT_DIR$/src/washer/game/PlyTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="68">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/washer/Test/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/washer/Test/BoardTest.java">
+    <entry file="file://$PROJECT_DIR$/src/washer/game/BoardArrayFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/game/MovePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/game/PieceList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/game/BoardEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/washer/Test/GameStateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/game/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/game/Ply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1369">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/game/MoveList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/washer/Test/BishopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/game/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/pieces/Bishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="56" column="115" lean-forward="true" selection-start-line="56" selection-start-column="115" selection-end-line="56" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/pieces/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/washer/Test/KingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/washer/pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/washer/Test/KnightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
