@@ -71,7 +71,6 @@ public class KingTest {
             assertEquals(false,king.isChecked());
         }
     }
-
     @Test
     public void checkBooleanReturnWithArray(){
         King king = new King(Side.WHITE);

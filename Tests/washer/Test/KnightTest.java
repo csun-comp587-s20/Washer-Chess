@@ -28,8 +28,8 @@ public class KnightTest {
                 -30, 0, 10, 15, 15, 10, 0, -30,
                 -40, -20, 0, 0, 0, 0, -20, -40,
                 -50, -40, -30, -30, -30, -30, -40, -50  };
-        Knight kinght = new Knight(Side.WHITE);
-        assertArrayEquals(kinght.getMobility(), WHITE_MOBILITY_BONUS );
+        Knight knight = new Knight(Side.WHITE);
+        assertArrayEquals(knight.getMobility(), WHITE_MOBILITY_BONUS );
     }
     @Test
     public void TestGetMobilityBlack(){
