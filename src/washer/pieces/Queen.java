@@ -41,8 +41,12 @@ public class Queen extends Piece {
 	}
 
 	public void reevaluate (int location) {
-		int value = Utilities.QUEEN_VALUE + (this.getColor () == Side.WHITE ? WHITE_MOBILITY_BONUS : BLACK_MOBILITY_BONUS)[Board.to8x8 (location)];//to adjust bonuses for white and black accordingly
-		setEvaluation (value);
+		//int value = Utilities.QUEEN_VALUE + (this.getColor () == Side.WHITE ? WHITE_MOBILITY_BONUS : BLACK_MOBILITY_BONUS)[Board.to8x8 (location)];//to adjust bonuses for white and black accordingly
+		setEvaluation (reevaluateInt(location));
+	}
+	public int reevaluateInt(int location){
+		int value = Utilities.QUEEN_VALUE + (this.getColor () == Side.WHITE ? WHITE_MOBILITY_BONUS : BLACK_MOBILITY_BONUS)[Board.to8x8 (location)];
+		return value;
 	}
 
 	public List<Ply> getLegalMoves (Board board, int location) {
@@ -84,5 +88,9 @@ public class Queen extends Piece {
 			}
 		}
 		return directionalMoves;
+	}
+	//Added public to test
+	public List<Ply> findDirectionalMovesPublic (Board board, int movement, int location, boolean addNumbers){
+		return findDirectionalMoves(board,movement,location,addNumbers);
 	}
 }

@@ -41,10 +41,17 @@ public class Pawn extends Piece {
 	}
 
 	public void reevaluate (int location) {
-		int value = Utilities.PAWN_VALUE + (this.getColor () == Side.WHITE ? WHITE_MOBILITY_BONUS : BLACK_MOBILITY_BONUS)[Board.to8x8 (location)];//to adjust bonuses for white and black accordingly
-		setEvaluation (value);
+		//int value = Utilities.PAWN_VALUE + (this.getColor () == Side.WHITE ? WHITE_MOBILITY_BONUS : BLACK_MOBILITY_BONUS)[Board.to8x8 (location)];//to adjust bonuses for white and black accordingly
+		setEvaluation (reevaluateInt(location));
 	}
 
+	//modified the void method for test mobility.
+	// I keep the original too so it won't mess other parts of the code
+	public int reevaluateInt(int location) {
+		int value = Utilities.PAWN_VALUE + (this.getColor () == Side.WHITE ? WHITE_MOBILITY_BONUS : BLACK_MOBILITY_BONUS)[Board.to8x8 (location)];//to adjust bonuses for white and black accordingly
+		setEvaluation (value);
+		return value;
+	}
 	public List<Ply> getLegalMoves (Board board, int location) {
 		List<Ply> moves = new ArrayList<Ply> ();
 		int[] movement = {Utilities.UP_DOWN_MOVEMENT, Utilities.UP_DOWN_MOVEMENT * 2, Utilities.LEFT_RIGHT_DIAGONAL_MOVEMENT, Utilities.RIGHT_LEFT_DIAGONAL_MOVEMENT};
@@ -118,9 +125,17 @@ public class Pawn extends Piece {
 		}
 
 		if (Board.isValidLocation (hAdjacentLocation) && board.getEnPassentLocation () == hAdjacentLocation && !board.sameColor (location, hAdjacentLocation)) {
-			return new Ply (location, newLocation, Utilities.NORMAL_MOVE, board.getPieceAt (location), board.getPieceAt (newLocation), 0, board.getKWC (), board.getKBC (), board.getQWC (), board.getQBC (), board.getSide ());
+			return new Ply (location, newLocation, Utilities.NORMAL_MOVE,
+					board.getPieceAt (location), board.getPieceAt (newLocation),
+					0, board.getKWC (), board.getKBC (), board.getQWC (),
+					board.getQBC (), board.getSide ());
 		}
 		return null;
+	}
+	//created to test getEnPassentMove
+	//calls getEnPassentMove just this is public and can be called in the test
+	public Ply getEnPassentMovePublic (Board board, int location, int newLocation, int movement, boolean isBlack){
+		return getEnPassentMove(board,location,newLocation,movement,isBlack);
 	}
 
 	private List<Ply> getPromotionalMoves (Board board, int location, int newLocation /*, int moveNumber*/, boolean isBlack, boolean capture) {
@@ -131,5 +146,10 @@ public class Pawn extends Piece {
 			promotionalMoves.add (new Ply (location, newLocation, promotionPieces[i], board.getPieceAt (location), board.getPieceAt (newLocation), 0, board.getKWC (), board.getKBC (), board.getQWC (), board.getQBC (), board.getSide ()));
 		}
 		return promotionalMoves;
+	}
+	//created to test getPromotionalMoves
+	// calls getPromotionalMoves just this is public and can be called in the test
+	public List<Ply> getPromotionalMovesPublic(Board board, int location, int newLocation , boolean isBlack, boolean capture){
+		return getPromotionalMoves(board,location,newLocation,isBlack,capture);
 	}
 }
