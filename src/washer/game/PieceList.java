@@ -19,7 +19,9 @@ public class PieceList {
 
 	public PieceList (Map<Integer, BoardEntry> entries) {
 		this.entries = entries;
+	}
 
+	public int returnTotalScore(Map<Integer, BoardEntry> entries){
 		for (BoardEntry i : entries.values ()) {
 			if (i.getPiece () instanceof King) {
 				king = i;
@@ -28,6 +30,7 @@ public class PieceList {
 		}
 
 		totalScore = calculateScore ();
+		return totalScore;
 	}
 
 	public PieceList (PieceList pieceList) {

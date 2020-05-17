@@ -2,16 +2,12 @@ package washer.Test;
 
 import org.junit.Test;
 import org.mockito.Mock;
-import washer.game.BoardEntry;
-import washer.game.PieceList;
-import washer.game.PieceListFactory;
-import washer.game.Side;
+import washer.game.*;
 import washer.pieces.King;
 import washer.pieces.Knight;
 import washer.pieces.Piece;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
@@ -19,8 +15,6 @@ import static washer.game.Side.WHITE;
 
 public class PieceListTest {
 
-    @Mock
-    PieceList pieceLists;
     @Mock
     Knight knight;
     @Mock
@@ -30,13 +24,13 @@ public class PieceListTest {
     @Mock
     PieceListFactory pieceListFactory;
 
-    @Test(expected = NullPointerException.class)
+    @Test
     public void test_size(){
         Map<Integer, BoardEntry> map = new HashMap<Integer,BoardEntry>();
         BoardEntry boardEntry = new BoardEntry(6);
         map.put(1,boardEntry);
         PieceList pieceList = new PieceList(map);
-        assertEquals(0,pieceList.size());
+        assertEquals(1,pieceList.size());
     }
 
     @Test
@@ -46,8 +40,9 @@ public class PieceListTest {
     }
 
     /*Bug Alert*/
-    /*The constructor for the BoardEntry class needs to be refactored to return the proper size*/
-    @Test(expected = NullPointerException.class)
+    /*The constructor for the PieceList class needs to be refactored to return the proper size
+     * Refactored the code to get the proper result*/
+    @Test
     public void test_size_is_One() {
         Map<Integer, BoardEntry> map = new HashMap<Integer, BoardEntry>();
         BoardEntry boardEntry = new BoardEntry(6);
@@ -70,4 +65,49 @@ public class PieceListTest {
         assertEquals(king,pieceList.getKing());
     }
 
+    @Test
+    public void test_getEntries(){
+        Map<Integer, BoardEntry> map = new HashMap<Integer,BoardEntry>();
+        BoardEntry boardEntry = new BoardEntry(6);
+        map.put(1,boardEntry);
+        PieceList pieceList = new PieceList(map);
+        assertEquals(map,pieceList.getEntries());
+    }
+
+    @Test
+    public void test_valuesReturnedInsideBoardEntry(){
+        Map<Integer, BoardEntry> map = new HashMap<Integer,BoardEntry>();
+        BoardEntry boardEntry1 = new BoardEntry(6,king);
+        BoardEntry boardEntry2 = new BoardEntry(6,knight);
+        map.put(1,boardEntry1);
+        map.put(2,boardEntry2);
+        ArrayList<BoardEntry> arrayList = new ArrayList<BoardEntry>();
+        arrayList.add(boardEntry1);
+        arrayList.add(boardEntry2);
+        PieceList pieceList = new PieceList(map);
+        assertArrayEquals(arrayList.toArray(),pieceList.values().toArray());
+    }
+
+    @Test
+    public void test_boardEntry_getEntry_values_for_different_boardEntries(){
+        BoardEntry boardEntry1 = new BoardEntry(6);
+        BoardEntry boardEntry2 = new BoardEntry(6);
+        Map<Integer, BoardEntry> map1 = new HashMap<Integer,BoardEntry>();
+        Map<Integer, BoardEntry> map2 = new HashMap<Integer,BoardEntry>();
+        map1.put(1, boardEntry2);
+        map2.put(1,boardEntry2);
+        PieceList pieceList1 = new PieceList(map1);
+        PieceList pieceList2 = new PieceList(map1);
+        assertEquals(pieceList2.getEntry(1),pieceList1.getEntry(1));
+    }
+
+//    @Test
+//    public void test_calculateScore(){
+//        Map<Integer, BoardEntry> map = new HashMap<Integer,BoardEntry>();
+//        BoardEntry boardEntry = new BoardEntry(6,king);
+//        BoardEntry boardEntry1 = new BoardEntry(boardEntry);
+//        map.put(1,boardEntry1);
+//        PieceList pieceList = new PieceList(map);
+//        assertEquals(2,pieceList.calculateScore());
+//    }
 }

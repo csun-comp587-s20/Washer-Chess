@@ -4,13 +4,54 @@ import com.sun.org.glassfish.external.amx.AMXGlassfish;
 
 import org.junit.Assert;
 import org.junit.Test;
-import washer.game.Board;
-import java.util.Random;
+import org.mockito.Mock;
+import washer.game.*;
+import washer.pieces.King;
+import washer.pieces.Piece;
 
+import java.util.*;
+
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class BoardTest {
+
+    @Mock
+    King king;
+    @Mock
+    Ply ply;
+    @Mock
+    Piece piece;
+    @Mock
+    PieceList pieceList1;
+    @Mock
+    PieceList pieceList2;
+    @Mock
+    Side side;
+    @Mock
+    Outcome outcome;
+
+    public Map<Integer,Set<Ply>> generatePly(){
+        Map<Integer, Set<Ply>> map = new HashMap<Integer, Set<Ply>>();
+        Set<Ply> set = new HashSet<Ply>();
+        set.add(ply);
+        map.put(1,set);
+        return map;
+    }
+
+    public Board generateBoard(){
+        BoardEntry boardEntry1 = new BoardEntry(1,king);
+        BoardEntry[] boardEntries1 = new BoardEntry[]{boardEntry1};
+        PlyTable plyTable = new PlyTable(generatePly());
+        Map<Integer, BoardEntry> map = new HashMap<Integer,BoardEntry>();
+        BoardEntry boardEntry = new BoardEntry(6);
+        map.put(1,boardEntry);
+        PieceList pieceList = new PieceList(map);
+        Board board = new Board(boardEntries1,plyTable,pieceList1,pieceList2,10,2,true,true,true,true,side,outcome.INSUFFICIENT_MATERIAL_DRAW);
+        return board;
+    }
+
     @Test
     public void TestGetLocation(){
         Board board = new Board();
@@ -57,8 +98,9 @@ public class BoardTest {
         }
     }
     @Test
-    public void TestSquareAttached(){
-
+    public void test_isDraw(){
+        Board board = new Board(generateBoard());
+        assertTrue(board.isDraw());
     }
 
 }
