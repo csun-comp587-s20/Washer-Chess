@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37179850-5a1d-4d5c-b744-b6026bb7a4e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/washer/Test/TreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/washer/Test/WasherEngineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/washer/engine/WasherEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/washer/engine/WasherEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +22,7 @@
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="277" />
+    <option name="myElementSize" value="268" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +41,11 @@
         <entry key="$PROJECT_DIR$" value="WC-2" />
       </map>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="All in washer-chess" />
+    </enabled-run-configurations>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -83,12 +85,16 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -299,38 +305,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="BoardArrayFactoryTest_test_copyBoard - 2020.05.17 at 12h 25m 21s.xml">
-      <configuration name="BoardArrayFactoryTest.test_copyBoard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardArrayFactoryTest_test_copyBoard - 2020.05.17 at 12h 27m 05s.xml">
-      <configuration name="BoardArrayFactoryTest.test_copyBoard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardArrayFactoryTest_test_copyBoard - 2020.05.17 at 12h 27m 28s.xml">
-      <configuration name="BoardArrayFactoryTest.test_copyBoard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardArrayFactoryTest_test_copyBoard - 2020.05.17 at 12h 28m 48s.xml">
-      <configuration name="BoardArrayFactoryTest.test_copyBoard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_washer-chess - 2020.05.17 at 12h 29m 22s.xml">
-      <configuration name="All in washer-chess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="washer_Test_in_washer-chess - 2020.05.17 at 12h 31m 41s.xml">
-      <configuration name="washer.Test in washer-chess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardTest_test_getRank - 2020.05.17 at 13h 45m 30s.xml">
-      <configuration name="BoardTest.test_getRank" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardTest_testLegalMovesForSquare - 2020.05.17 at 13h 55m 43s.xml">
-      <configuration name="BoardTest.testLegalMovesForSquare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardTest_testLegalMovesForSquare - 2020.05.17 at 13h 57m 06s.xml">
-      <configuration name="BoardTest.testLegalMovesForSquare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BoardTest_testgetHalfClockMove - 2020.05.17 at 13h 59m 14s.xml">
-      <configuration name="BoardTest.testgetHalfClockMove" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -348,6 +322,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;Adding tests&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;Adding tests&quot;" />
   </component>
@@ -372,22 +347,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="473" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586650365963" />
-    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1589698954346">
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1589761527229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589698954346" />
-    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1589698954345">
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589761527229" />
+    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1589761527228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589698954345" />
-    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1589698954345">
+    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589761527228" />
+    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1589761527228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589698954345" />
-    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1589698954345">
+    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589761527228" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1589761527228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589698954345" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589761527228" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1586234890641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -400,6 +375,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="917" y="119" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1589759812454" />
+    <state x="594" y="241" key="export.test.results" timestamp="1589761704427">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="594" y="241" key="export.test.results/0.0.1536.824@0.0.1536.824" timestamp="1589761704427" />
     <state x="432" y="261" key="git4idea.ui.GitUnstashDialog" timestamp="1589676770598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -408,6 +387,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586230067071" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Washer_chess$All_in_washer_chess.ic" NAME="All in washer-chess Coverage Results" MODIFIED="1589761527205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="masterDetails">
     <states>
