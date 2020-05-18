@@ -7,7 +7,8 @@ import org.junit.Test;
 import washer.game.Board;
 import java.util.Random;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class BoardTest {
     @Test
@@ -23,7 +24,7 @@ public class BoardTest {
     @Test
     public void TestIsValidateLocationT(){
         Board board =new Board();
-        Assert.assertTrue(board.isValidLocation(70));
+        assertTrue(board.isValidLocation(70));
     }
     @Test
     public void TestIsValidateLocationF(){
