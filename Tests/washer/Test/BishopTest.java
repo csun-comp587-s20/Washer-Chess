@@ -7,6 +7,8 @@ import jdk.nashorn.internal.objects.annotations.Where;
 import washer.game.Board;
 import washer.game.Ply;
 import washer.game.Side;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import washer.pieces.Bishop;
@@ -14,7 +16,8 @@ import washer.pieces.Piece;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 
 public class BishopTest {
@@ -56,17 +59,23 @@ public class BishopTest {
     @Test
     public void TestReevaluate(){
         Bishop b = new Bishop(Side.BLACK);
-       // assertEquals(320, b.reevaluateInt(-1));
+        // assertEquals(320, b.reevaluateInt(-1));
         assertEquals(320, b.reevaluateInt(10));
         assertEquals(335, b.reevaluateInt(30));
         assertEquals(335, b.reevaluateInt(53));
         assertEquals(330, b.reevaluateInt(70));
         assertEquals(330, b.reevaluateInt(100));
     }
-
     @Test
-    public void findDirectionalMove(){
-
-        //assertLinesMatch();
+    public void TestFindDirectionalMove(){
+        Bishop b = new Bishop(Side.BLACK);
+        List<Ply> list = new ArrayList<Ply>();
+        assertArrayEquals(list.toArray(),b.findDirectionalMovesPublic(board, -20,5,false).toArray());
+    }
+    @Test
+    public void TestFindDirectionalMove2(){
+        Bishop b = new Bishop(Side.BLACK);
+        List<Ply> list = new ArrayList<Ply>();
+        assertArrayEquals(list.toArray(),b.findDirectionalMovesPublic(board, -20,5,true).toArray());
     }
 }

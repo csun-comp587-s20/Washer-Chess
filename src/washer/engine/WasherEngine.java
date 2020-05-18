@@ -95,6 +95,10 @@ public class WasherEngine extends AbstractEngine {
 		}
 		return indent;
 	}
+	//modified for testability
+	public  String indentPublic(int depth){
+	    return indent(depth);
+    }
 
 	public void start () {
 

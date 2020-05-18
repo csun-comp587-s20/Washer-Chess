@@ -97,4 +97,7 @@ public class Bishop extends Piece {
 		}
 		return directionalMoves;
 	}
+	public List<Ply> findDirectionalMovesPublic (Board board, int movement, int location, boolean addNumbers){
+		return findDirectionalMoves(board, movement, location, addNumbers);
+	}
 }

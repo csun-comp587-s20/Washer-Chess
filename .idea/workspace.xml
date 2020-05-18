@@ -2,43 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37179850-5a1d-4d5c-b744-b6026bb7a4e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_10_191.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/washer/Test/BishopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/washer-chess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/washer-chess.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/washer/Test/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/washer/Test/BoardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/washer/Test/MoveListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/washer/Test/MoveListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/washer/Test/NodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/washer/Test/NodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/washer/game/BoardEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/washer/game/BoardEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/washer/game/Ply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/washer/game/Ply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/washer/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/washer/pieces/Bishop.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Washer_chess$All_in_washer_chess.ic" NAME="All in washer-chess Coverage Results" MODIFIED="1589749310064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Washer_chess$PieceListTest_test_size.ic" NAME="PieceListTest.test_size Coverage Results" MODIFIED="1589736265280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>washer.Test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Washer_chess$washer_Test_in_washer_chess.ic" NAME="washer.Test in washer-chess Coverage Results" MODIFIED="1589743899385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>washer.Test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Washer_chess$PieceListTest.ic" NAME="PieceListTest Coverage Results" MODIFIED="1589736579742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>washer.Test.*</FILTER>
+    </SUITE>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Android_Accelerated_x86_Oreo" />
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="268" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
         <option value="XSLT Stylesheet" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="WC-2" />
+      </map>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="All in washer-chess" />
+    </enabled-run-configurations>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -78,23 +85,29 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589749308515" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1488189" />
     <property name="project.structure.side.proportion" value="0.27803522" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -103,63 +116,30 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="washer.Test" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="washer.Test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="washer.engine" />
+      <recent name="washer.pieces" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="washer.Test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/washer/ui" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="washer.Test" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Android JUnit.Test">
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="washer-chess" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="washer.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="washer.Test" />
-      <option name="MAIN_CLASS_NAME" value="washer.Test.NodeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+  <component name="RunManager" selected="JUnit.All in washer-chess">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,12 +152,6 @@
       <option name="TEST_OBJECT" value="package" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,9 +174,87 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="material-ui-swing.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/src/resources/material-ui-swing.jar" />
-      <method v="2" />
+    <configuration name="All in washer-chess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="washer-chess" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.testLegalMovesForSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="washer-chess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="washer.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="washer.Test" />
+      <option name="MAIN_CLASS_NAME" value="washer.Test.BoardTest" />
+      <option name="METHOD_NAME" value="testLegalMovesForSquare" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.test_getRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="washer-chess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="washer.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="washer.Test" />
+      <option name="MAIN_CLASS_NAME" value="washer.Test.BoardTest" />
+      <option name="METHOD_NAME" value="test_getRank" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.testgetHalfClockMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="washer-chess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="washer.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="washer.Test" />
+      <option name="MAIN_CLASS_NAME" value="washer.Test.BoardTest" />
+      <option name="METHOD_NAME" value="testgetHalfClockMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="washer.Test in washer-chess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="washer-chess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="washer.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="washer.Test" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -213,16 +265,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Android JUnit.Test" />
-      <item itemvalue="Android JUnit.NodeTest" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JAR Application.material-ui-swing.jar" />
+      <item itemvalue="JUnit.All in washer-chess" />
+      <item itemvalue="JUnit.washer.Test in washer-chess" />
+      <item itemvalue="JUnit.BoardTest.test_getRank" />
+      <item itemvalue="JUnit.BoardTest.testLegalMovesForSquare" />
+      <item itemvalue="JUnit.BoardTest.testgetHalfClockMove" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.NodeTest" />
-        <item itemvalue="JAR Application.material-ui-swing.jar" />
+        <item itemvalue="JUnit.All in washer-chess" />
+        <item itemvalue="JUnit.BoardTest.testgetHalfClockMove" />
+        <item itemvalue="JUnit.BoardTest.testLegalMovesForSquare" />
+        <item itemvalue="JUnit.BoardTest.test_getRank" />
+        <item itemvalue="JUnit.washer.Test in washer-chess" />
       </list>
     </recent_temporary>
   </component>
@@ -254,11 +321,16 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="&quot;Adding tests&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Adding tests&quot;" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586230010514">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589678489300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586230010514" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589678489300" />
     <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1586235135089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -275,37 +347,125 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="473" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586650365963" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586239116670">
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1589761527229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586239116670" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586239116670">
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589761527229" />
+    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1589761527228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586239116670" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586239116670">
+    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589761527228" />
+    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1589761527228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586239116670" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586239116670">
+    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589761527228" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1589761527228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586239116670" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589761527228" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1586234890641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586234890641" />
-    <state x="882" y="310" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586234885476">
+    <state x="882" y="310" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589677137557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="882" y="310" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1586234885476" />
-    <state x="917" y="119" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586234081439">
+    <state x="882" y="310" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1589677137557" />
+    <state x="917" y="119" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589759812454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="917" y="119" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1586234081439" />
+    <state x="917" y="119" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1589759812454" />
+    <state x="594" y="241" key="export.test.results" timestamp="1589761704427">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="594" y="241" key="export.test.results/0.0.1536.824@0.0.1536.824" timestamp="1589761704427" />
+    <state x="432" y="261" key="git4idea.ui.GitUnstashDialog" timestamp="1589676770598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="432" y="261" key="git4idea.ui.GitUnstashDialog/0.0.1536.824@0.0.1536.824" timestamp="1589676770598" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1586230067071">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586230067071" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Washer_chess$All_in_washer_chess.ic" NAME="All in washer-chess Coverage Results" MODIFIED="1589761527205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27803522" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27803522" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.7 (off-top-python) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27803522" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27803522" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>washer-chess</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27803522" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit:junit:4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27803522" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

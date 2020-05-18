@@ -94,4 +94,7 @@ public class Rook extends Piece {
 		}
 		return directionalMoves;
 	}
+	public List<Ply> findDirectionalMovesPublic (Board board, int movement, int location /*, int moveNumber*/, boolean addNumbers){
+		return findDirectionalMoves(board, movement, location, addNumbers);
+	}
 }

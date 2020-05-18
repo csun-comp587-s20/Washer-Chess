@@ -2,7 +2,7 @@ package washer.game;
 
 public final class BoardArrayFactory {
 
-	private BoardArrayFactory () {}
+	public BoardArrayFactory () {}
 
 	public static BoardEntry[] copyBoard (BoardEntry[] array) {
 		BoardEntry[] copy = new BoardEntry[array.length];
