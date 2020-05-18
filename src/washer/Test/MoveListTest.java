@@ -32,21 +32,21 @@ public class MoveListTest {
         Assert.assertEquals(2, moveList.getNumMoves());
     }
 
+    //Failed this test, No case is defined for incorrect index number
+    ///////////
     @Test (expected  = NullPointerException.class)
     public void TestGetMoveAtNull(){
         MoveList moveList = new MoveList();
         Assert.assertEquals(0, moveList.getMoveAt(5));
     }
-
-    //Failed this test, No case is defined for incorrect index number
-    ///////////
+    //////////////
     @Test
     public void TestGetMoveAt1(){
         MoveList moveList = new MoveList();
         moveList.addMove(play1);
         Assert.assertEquals(play1, moveList.getMoveAt(0));
     }
-    //////////////
+  
     @Test
     public void getAllMoves0(){
         ArrayList<Ply> p= new ArrayList<Ply>();
