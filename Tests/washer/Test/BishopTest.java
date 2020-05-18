@@ -14,7 +14,9 @@ import washer.pieces.Piece;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
 
 public class BishopTest {
@@ -56,7 +58,7 @@ public class BishopTest {
     @Test
     public void TestReevaluate(){
         Bishop b = new Bishop(Side.BLACK);
-       // assertEquals(320, b.reevaluateInt(-1));
+        // assertEquals(320, b.reevaluateInt(-1));
         assertEquals(320, b.reevaluateInt(10));
         assertEquals(335, b.reevaluateInt(30));
         assertEquals(335, b.reevaluateInt(53));
