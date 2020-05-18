@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import washer.engine.Node;
-import static org.junit.jupiter.api.Assertions.*;
+
 
 public class NodeTest {
     @Test
